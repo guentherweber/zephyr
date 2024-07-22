@@ -181,7 +181,7 @@ static int ads1x1x_write_reg(const struct device *dev, enum ads1x1x_reg reg_addr
 	return 0;
 }
 
-static int ads1x1x_start_conversion(const struct device *dev)
+        static int ads1x1x_start_conversion(const struct device *dev)
 {
 	/* send start sampling command */
 	uint16_t config;
